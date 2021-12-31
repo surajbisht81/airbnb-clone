@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Banner from './Banner'
 import Footer from './Footer';
 import Header from './Header';
-import LargeCard from './Components/LargeCard';
-import MediumCard from './Components/MediumCard';
-import SmallCard from './Components/SmallCard';
+import LargeCard from './LargeCard';
+import MediumCard from './MediumCard';
+import SmallCard from './SmallCard';
 import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 
