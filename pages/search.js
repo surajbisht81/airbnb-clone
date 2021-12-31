@@ -1,9 +1,9 @@
-import Footer from "./Components/Footer"
-import Header from "./Components/Header"
+import Footer from "../Components/Footer"
+import Header from "../Components/Header"
 import { useRouter } from 'next/router';
 import { format } from "date-fns";
-import InfoCard from "./Components/InfoCard";
-import Map from "./Components/Map";
+import InfoCard from "../Components/InfoCard";
+import Map from "../Components/Map";
 
 export async function getServerSideProps() {
     const searchResults = await fetch("https://links.papareact.com/isz")
